@@ -1,0 +1,45 @@
+[/]
+custom-keybindings=['/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom0/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom1/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom2/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom3/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom4/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom5/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom6/', '/org/gnome/settings-daemon/plugins/media-keys/custom-keybindings/custom7/']
+www='<Super>w'
+terminal='<Super>t'
+home='<Super>e'
+
+[custom-keybindings/custom0]
+binding='<Primary>Right'
+command='rhythmbox-client --next'
+name='RB Next'
+
+[custom-keybindings/custom1]
+binding='<Primary>Left'
+command='rhythmbox-client --previous'
+name='RB Previous'
+
+[custom-keybindings/custom2]
+binding='<Primary>Down'
+command='rhythmbox-client --play-pause'
+name='RB Play/Pause'
+
+[custom-keybindings/custom3]
+binding='<Primary>KP_1'
+command='/home/fenkil/Music/spotify_control playpause'
+name='Spotify Play'
+
+[custom-keybindings/custom4]
+binding='<Primary>KP_2'
+command='/home/fenkil/Music/spotify_control previous'
+name='Spotify Previous '
+
+[custom-keybindings/custom5]
+binding='<Primary>KP_3'
+command='/home/fenkil/Music/spotify_control next'
+name='Spotify Next'
+
+[custom-keybindings/custom6]
+binding='<Primary><Super>m'
+command='rhythmbox'
+name='Music - Rhythmbox'
+
+[custom-keybindings/custom7]
+binding='<Super>KP_7'
+command='dbus-send --type=method_call --dest=org.mpris.MediaPlayer2.vlc /org/mpris/MediaPlayer2   org.mpris.MediaPlayer2.Player.PlayPause\n'
+name='VLC Play/Pause - dbus'
