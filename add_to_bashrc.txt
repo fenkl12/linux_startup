@@ -7,7 +7,7 @@ alias tpcpu='ps axch -o cmd:15,%cpu --sort=-%cpu | head'
 alias tpmem='ps axch -o cmd:15,%mem --sort=-%mem | head'
 alias docs="cd /home/$(whoami)/Documents"
 alias dwns="cd /home/$(whoami)/Downloads"
-alias hme ='cd ~'
+alias hme='cd ~'
 alias opn="nautilus"
 alias sze='du -a -d 1 -h | sort -h'
 alias ..='cd ..'
